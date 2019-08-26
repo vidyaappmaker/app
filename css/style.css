@@ -1,0 +1,174 @@
+body{
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin:0;
+    background-color:white;
+
+}
+.container{
+    width:80%;
+    height:auto;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2{
+    width:80%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap; 
+}
+header{
+    background:white;
+    color:#000000;
+    padding: top 30px;
+    min-height:50px;
+    border-bottom:#000000 3px solid;
+}
+
+header img{
+    float: left;
+    padding: 25px;
+    width: 50px;
+}
+
+header h1{
+    float: left;
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+header a{
+    color:#000000;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+    float:left;
+    display: inline;
+    padding:20px 20px;
+}
+
+
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a{
+    color: crimson;
+}
+
+header a:hover{
+    color:#df2b2b;
+    font-weight: bold;
+
+}
+#showcase{
+    min-height: 150px;
+    background:#ff0404;
+    border-bottom: #000000;
+}
+#showcase img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top:auto;
+    width: 45%;
+
+}
+ #newsletter{
+     min-height: 10px;
+     padding:15px;
+     color: #ffffff;
+     background: #000000;
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsletter a{
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+.button_1{
+    height: 40px;
+    background: #c72121;
+    border: 0;
+    padding-left:20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+#boxes{
+    margin-top:20px;
+}
+#boxes .people{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boxes .people h1{
+        font-size: 30px;
+        font-family: Calibri;
+        color:#000000;
+
+}
+
+#boxes .box{
+    float: left;
+    width:20%;
+    padding:20px;
+}
+#boxes .box h3{
+    color:#000000;
+}
+
+#boxes .box img{
+    width: 170px;
+    height: 170px;
+}
+@media screen and (max-width:1200px){
+    #boxes .box{
+        width:40%;
+    }
+}
+@media screen and (max-width:600px){
+    #boxes .box{
+        width:40%;
+    }
+}
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    color: #cccccc;
+    background-color: #000000;
+    text-align: center;
+    text
+
+}
+/* About */
+#main_class h1{
+    font-size: 30px;
+    font-family: Calibri;
+}
